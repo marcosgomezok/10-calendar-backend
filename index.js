@@ -22,6 +22,8 @@ app.use(express.json())
 //Rutas
 app.use('/api/auth', require('./routes/auth')); //todo lo que auth.js vaya a exportar lo va a habilitar en '/api/auth'
 
+app.use('/api/events', require('./routes/events')); 
+
 //Escuchar Peticiones
 app.listen(process.env.PORT,()=>{
     console.log(`Servidor corriendo en puerto ${process.env.PORT}`)
