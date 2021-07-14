@@ -1,1 +1,2 @@
-# 10-CalendarApp---Backend---Node-Express-Mongo
+Aplicacion backend desarrollada en Node.js
+https://mern-calendar-project.herokuapp.com/
