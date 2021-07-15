@@ -51,7 +51,7 @@ const loginUsuario = async(req,res=response)=>{
     try {
         
         const usuario = await Usuario.findOne({email:email});
-        console.log(usuario)
+        //console.log(usuario)
         if(!usuario){
             return res.status(400).json({
                 ok: false,
