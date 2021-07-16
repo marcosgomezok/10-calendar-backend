@@ -1,4 +1,4 @@
-Aplicacion backend desarrollada en Node.js
+Aplicacion desarrollada en Node.js y React
 
 Despliege en un dominio registrado:
 https://www.calendarapp.ga
